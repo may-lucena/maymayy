@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Animação de Texto</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+  }
+
+  .texto {
+    text-align: center;
+    font-size: 24px;
+    animation: animacaoTexto 5s ease-in-out infinite;
+  }
+
+  @keyframes animacaoTexto {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.1);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+</style>
+</head>
+<body>
+<div class="texto">kkkkk para sua infelicidade não vai ser hoje kkkkkkk</div>
+</body>
+</html>
